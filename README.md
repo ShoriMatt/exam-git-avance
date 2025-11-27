@@ -1,15 +1,14 @@
-# Campus Library — Examen Git
+Examen Git Avancé
 
-Ce repository contient plusieurs branches avec du code pré-écrit.
+Le projet hébergé sur le dépôt Git est un mini serveur web représentant une
+bibliothèque, le site permet d’afficher la liste des livres avec 4 champs : ID , Title ,
+Author , Year . Le site possède aussi une page pour chaque livre, pour les afficher
+individuellement
 
-🎯 Votre objectif : reconstruire le projet final en utilisant **exclusivement Git** :
-- fork
-- pull requests
-- merges
-- résolution de conflits
-- tags
-- historique propre
+Pour le démarrer:
 
-Utilisez ```go mod init main``` puis ```go mod tidy``` pour installer les modules supplémentaires au lancement du projet.
+- Cloner le repo sur votre machine: ```git clone https://www.github.com/ShoriMatt/exam-git-avance```
+  
+- Utilisez ```go mod init main``` puis ```go mod tidy``` pour installer les modules supplémentaires au lancement du projet.
 
-Le projet ci-dessous lance un serveur pour un site de présentation de 3 livres.
+- Pour terminer faites ```go run main.go``` depuis la racine du projet pour le lancer
